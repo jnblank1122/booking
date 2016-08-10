@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in your  name, the date you would like for your appointment, as well as the start and end times</h1>
+      <div id="blank">
+        <form>
+          <div class="form">
+            <label for="name">Enter your name: </label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="date">Date: </label>
+            <input id="date" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="start">Start Time: </label>
+            <input id="start" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="end">End Time: </label>
+            <input id="end" class="form-control" type="text">
+          </div>
+
+              <button type="submit" class="btn">Show me my appointment</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="confirm">
+        <h2>Booking Successful!</h2>
+          <p> Thank you <span class="name"></span> for making an appointment with us! </br>  This is your appointment confirmation on <span class="date"></span>  at  <span class="start"></span>, please arrive 15 minutes early.  The appointment will end at <span class="zip"></span>.
+          </p>
+      </div>
+    </div>
+
+  </body>
+</html>
